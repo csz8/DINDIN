@@ -6,22 +6,38 @@
 
 body {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #2E948A;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
     align-items: center;
-    height: 117px;
+    height: 9vw;
+    padding-left: 2%;
 }
 
 nav {
     text-align: center;
+    width: 40%;
 }
 
 li {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+margin-right: 10%;
+margin-left: 10%;
+}
+
+section {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 footer {
@@ -29,7 +45,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 207px;
+    height: 30vh;
 }
 
 .menu-header-item {
@@ -43,6 +59,11 @@ footer {
     text-align: left;
     color: #FDFDFD;
     text-decoration: none;
+    padding: 5%;
+}
+
+.menu-footer {
+text-align: left;
 }
 
 .menu-footer-item-link {
@@ -71,3 +92,126 @@ footer {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.títulos-página {
+    size: 4.4vw;
+    color:#FF4081;
+}
+
+.descrição-banner {
+    size: 2vw;
+    color:#555555;
+}
+
+.blog-botao {
+    display: flex;
+    justify-content: center;
+}
+
+.blog-botao-link {
+    text-decoration: none;
+    padding: 5px;
+    border-color: #FF4081;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 62px;
+    color: #FF4081;
+    font-size: 1.5vw;
+    margin-top: 30px;
+    width: 19vw;
+    height: 9vh;
+}
+
+.banner-botao-link {
+    text-decoration: none;
+    padding: 5px;
+    border-color: #FF4081;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 62px;
+    color: #FF4081;
+    font-size: 1.2vw;
+    margin-top: 30px;
+    width: 19vw;
+    height: 9vh;
+}
+
+.pinicial-imgs {
+    width: 21vw;
+    height: 42vh;
+}
+
+.pinicial-cursos {
+    text-align: center;
+}
+
+.pinicial-cursos-botao-link {
+    text-decoration: none;
+    color: #FDFDFD;
+    padding: 5px;
+    border-color: #FF4081;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 62px;
+    background-color: #FF4081;
+    font-size: 1vw;
+    margin-top: 30px;
+    width: 17vw;
+    height: 9vh;
+}
+
+.pinicial-chamadas {
+font-size: 1.5vw;
+color: #FF4081;
+font-weight: bold;
+}
+
+.pinicial-descrição {
+    font-size: 0.9vw;
+    width: 20vw;
+    height: 10vh;
+}
+
+.articles-depoimentos {
+    gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-blog {
+display: flex;
+gap: 10%;
+}
+
+.blog-posts {
+font-weight: bold;
+color: #009688;
+}
+
+.pinicial-depoimentos-names {
+    font-weight: bold;
+}
+
+.chamadas-sections {
+    color: #009688;
+    font-size: 2.7vw;
+}
+
+#ilustra-banner {
+    width: 36vw;
+    height: 82vh; 
+}
+
+#banner {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+} 
+
+#cursos {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    background-color: #F6F6F6;  
+}
+
