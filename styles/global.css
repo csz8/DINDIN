@@ -36,8 +36,8 @@ margin-left: 10%;
 }
 
 section {
-    margin-top: 10%;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 footer {
@@ -48,11 +48,7 @@ footer {
     height: 30vh;
 }
 
-.menu-header-item {
-    display: inline;
-}
-
-.menu-header-item-link {
+.menu-item {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -62,11 +58,44 @@ footer {
     padding: 5%;
 }
 
-.menu-footer {
-text-align: left;
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
 }
 
-.menu-footer-item-link {
+.banner-botao {
+    display: flex;
+    flex-direction: column;
+}
+
+.títulos-página {
+    font-size: 4.4vw;
+    color:#FF4081;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+}
+
+.link-banner {
+    text-decoration: none;
+    padding: 5px;
+    border-color: #FF4081;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 62px;
+    color: #FF4081;
+    font-size: 1.2vw;
+    margin-top: 30px;
+    width: 19vw;
+    height: 9vh;
+}
+
+.menu-footer {
+    text-align: left;
+    }
+
+.menu-link {
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -74,7 +103,7 @@ text-align: left;
     text-decoration: none;
 }
 
-.link-botao-footer p {
+.botao-footer p {
     display: flex;
     width: 289px;
     height: 51px;
@@ -88,24 +117,63 @@ text-align: left;
     align-items: center;
 }
 
-.link-botao-footer-link {
+.botao-link {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.títulos-página {
-    size: 4.4vw;
-    color:#FF4081;
-}
-
 .descrição-banner {
-    size: 2vw;
+    font-size: 2vw;
     color:#555555;
 }
 
 .blog-botao {
     display: flex;
     justify-content: center;
+}
+
+.blog.pdescriptions {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.container-formulário {
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.titulos-blog {
+    color: #FF4081;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.pcursos-cursos {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+
+.pcurso-imgs {
+    height: 381px;
+    width: 380px;
+}
+
+.pcursos-link {
+    text-decoration: none;
+    color: #FDFDFD;
+    padding: 5px;
+    border-color: #419488;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 62px;
+    background-color: #419488;
+    font-size: 1vw;
+    width: 17vw;
+    height: 9vh;
 }
 
 .blog-botao-link {
@@ -122,18 +190,15 @@ text-align: left;
     height: 9vh;
 }
 
-.banner-botao-link {
-    text-decoration: none;
-    padding: 5px;
-    border-color: #FF4081;
-    border-width: 2px;
-    border-style: solid;
-    border-radius: 62px;
-    color: #FF4081;
-    font-size: 1.2vw;
-    margin-top: 30px;
-    width: 19vw;
-    height: 9vh;
+.blog-posts {
+    font-weight: bold;
+    color: #009688;
+    margin-bottom: 0;
+}
+
+.blog-imgs {
+    height: 259px;
+    width: 518px;    
 }
 
 .pinicial-imgs {
@@ -172,6 +237,12 @@ font-weight: bold;
     height: 10vh;
 }
 
+.pblog-descrição {
+    font-size: 0.9vw;
+    width: 30vw;
+    height: 10vh;
+}
+
 .articles-depoimentos {
     gap: 5%;
     display: flex;
@@ -180,12 +251,8 @@ font-weight: bold;
 
 .article-blog {
 display: flex;
-gap: 10%;
-}
-
-.blog-posts {
-font-weight: bold;
-color: #009688;
+justify-content: space-between;
+gap: 4%;
 }
 
 .pinicial-depoimentos-names {
@@ -195,6 +262,25 @@ color: #009688;
 .chamadas-sections {
     color: #009688;
     font-size: 2.7vw;
+}
+
+.curso-aulas {
+    display: flex;
+    flex-direction: column;
+}
+
+.videos {
+    width: 40%;
+}
+
+.video-aulas {
+    display: flex;
+    align-content: space-between;
+    gap: 10%;
+}
+
+.aulas-descrição {
+
 }
 
 #ilustra-banner {
@@ -215,3 +301,95 @@ justify-content: space-between;
     background-color: #F6F6F6;  
 }
 
+#blog {
+    background-color: #F6F6F6;  
+}
+
+#blog-titulo {
+    color: #009688;
+    font-size: 47px;
+    font-weight: 700;
+}
+
+#blog-descrição {
+    size: 20px;
+    font-weight: 300;
+}
+
+#blog-intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+}
+
+#blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+#contato {
+    font-size: 40px;
+    color: #FF4081;
+}
+
+#contato-form {
+    display: flex;
+    justify-content: row;
+    justify-content: space-between;
+}
+
+#entrar {
+    border-color: #FF4081;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    background-color:#FF4081;
+    color: #FFFFFF;
+    font-size: 1.5vw;
+    width: 108px;
+    height: 32px;
+}
+
+#pcursos-center {
+    padding-top: 5%;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-color: #C4C4C4;
+    border-width: 5px;
+}
+
+#date-post {
+    text-align: center;
+    font-size: 18px;
+    color: #9D9D9D;
+    margin-bottom: 5%;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#titulo-post {
+    color: #FF4081;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#imagem-post {
+    width: 100%;
+}
+
+#va-border {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-color: #C4C4C4;
+    border-width: 2px;
+}
